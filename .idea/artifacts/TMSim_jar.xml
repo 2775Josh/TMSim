@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TMSim:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TMSim_jar</output-path>
+    <root id="archive" name="TMSim.jar">
+      <element id="module-output" name="TMSim" />
+    </root>
+  </artifact>
+</component>
