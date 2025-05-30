@@ -23,8 +23,7 @@ public class TuringMachineGUI {
     private void mainHelper() {
         JFrame frame = new JFrame("Turing Machine Tester");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
-        g
+
         frame.setSize(900, 500);
 
         // LEFT panel (left 50%) - includes text area and 3 buttons side by side
