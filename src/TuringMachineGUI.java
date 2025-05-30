@@ -69,14 +69,12 @@ public class TuringMachineGUI {
         bottomRightPanel.add(panel3);
 
         // RIGHT side: split vertically between top-right and bottom-right
-        JSplitPane rightVerticalSplit = new JSplitPane(JSplitPane.VERTICAL_SPLIT,
-                topRightPanel, bottomRightPanel);
+        JSplitPane rightVerticalSplit = new JSplitPane(JSplitPane.VERTICAL_SPLIT, topRightPanel, bottomRightPanel);
         rightVerticalSplit.setDividerLocation(0.5);
         rightVerticalSplit.setResizeWeight(0.5);
 
         // MAIN split: left and right
-        JSplitPane mainSplit = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT,
-                leftPanel, rightVerticalSplit);
+        JSplitPane mainSplit = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, leftPanel, rightVerticalSplit);
         mainSplit.setDividerLocation(frame.getWidth()*4/7);
         mainSplit.setResizeWeight(0.5);
 
